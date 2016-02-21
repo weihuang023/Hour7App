@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+        <item
+            android:id="@+id/menu_settings"
+            android:orderInCategory="100"
+            android:showAsAction="collapseActionView"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/menu_test"
+            android:orderInCategory="10"
+            android:showAsAction="ifRoom"
+            android:title="Action 1" />
+
+        <item
+            android:id="@+id/menu_test1"
+            android:orderInCategory="10"
+            android:showAsAction="ifRoom"
+            android:title="Action 2" />
+
+        <item
+            android:id="@+id/menu_test2"
+            android:orderInCategory="10"
+            android:showAsAction="ifRoom"
+            android:title="Action 3" />
+
+        <item
+            android:id="@+id/menu_test3"
+            android:orderInCategory="10"
+            android:showAsAction="ifRoom"
+            android:title="Action 4" />
+
+</menu>
